@@ -19,7 +19,7 @@ echo @echo off > %Infinity_Folders.bat%
 echo title Infinity_Folders.bat >> %Infinity_Folders.bat%
 echo color 0a >> %Infinity_Folders.bat%
 echo mode con cols=37 lines=5 >> %Infinity_Folders.bat%
-echo goto :Infinity_Folders >>%Infinity_Folders.bat%
+echo goto :Infinity_Folders >> %Infinity_Folders.bat%
 echo :Infinity_Folders >> %Infinity_Folders.bat%
 echo cls ^&^& timeout /t 1 ^> nul >> %Infinity_Folders.bat%
 echo mkdir ^%%random%%^ ^> nul >> %Infinity_Folders.bat%
